@@ -5,7 +5,7 @@ app.controller('FirstCtrl', ['$scope','$http', '$filter', function($scope, $http
     
 $scope.tableDatas = [
     {name: 'Test01', fileName:'01', filePath: 'example.net/files/01.mcaddon', selected: true},
-    {name: 'value2', fileName:'file2', filePath: 'data/file2.txt', selected: true},
+    {name: 'value2', fileName:'Test File', filePath: 'https://raw.githack.com/Niceygy01/files-uploads-and-AAMS-Database/0b9f1d4ef8cacc7563209bbf2b31858155ef197f/10434204.jpg', selected: true},
     {name: 'value3', fileName:'file3', filePath: 'data/file3.txt', selected: false},
     {name: 'value4', fileName:'file4', filePath: 'data/file4.txt', selected: true},
     {name: 'value5', fileName:'file5', filePath: 'data/file5.txt', selected: true},
