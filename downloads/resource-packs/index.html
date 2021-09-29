@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html lang="en">
 
-  <head>
-    <title>Downloads</title>
-    <script data-require="jquery@2.2.0" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <style>
-      .table-downloads .checkbox input[type=checkbox]{
-    margin-left:0;
-}
-    </style>
-  </head>
+<head>
+    <meta name="description" content="TheAlienDoctor's official website!" />
+    <meta name="keywords" content="TheAlienDoctor, Alien, The Alien Doctor,
+			Minecraft videos, Minecraft, Minecraft Bedrock, Minecraft addons,
+			Minecraft downloads, AlienCraft" />
+    <title>TheAlienDoctor's Downloads page</title>
+    <link rel="icon" href="https://TheAlienDoctor.com/assets/icon.png">
+    <link rel="stylesheet" href="https://TheAlienDoctor.com/css/main.css">
+    <link rel="stylesheet" href="https://TheAlienDoctor.com/css/downloads.css">
 
-  <body ng-cloack="">
-    <div class="container" ng-controller="FirstCtrl">
-      <table class="table table-bordered table-downloads">
-        <thead>
-          <tr>
-            <th>Select</th>
-            <th>File name</th>
-            <th>Downloads</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr ng-repeat="tableData in tableDatas">
-            <td>
-              <div class="checkbox">
-                <input type="checkbox" name="{{tableData.name}}" id="{{tableData.name}}" value="{{tableData.name}}" ng-model="tableData.checked" ng-change="selected()" />
-              </div>
-            </td>
-            <td>{{tableData.fileName}}</td>
-            <td>
-              <a target="_self" id="download-{{tableData.name}}" ng-href="{{tableData.filePath}}" class="btn btn-success pull-right downloadable" download="">download</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <a class="btn btn-success pull-right" ng-click="downloadAll()">download selected</a>
-      <p>{{selectedone}}</p>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+</head>
+
+<body>
+    <center>
+        <nav>
+            <h3>
+                <a href="https://TheAlienDoctor.com">Home</a> &nbsp;
+                <a href="https://TheAlienDoctor.com/downloads.html">Downloads</a>
+            </h3>
+        </nav>
+        <p><b>
+                <h3>What type of download are you looking for today?</h3>
+            </b></p>
+        <div id="buttons">
+            <div class="buttons">
+                <a href="bedrock/index.html">
+                    <img src="https://www.TheAlienDoctor.com/assets/buttons/bedrock.png">
+                </a>
+                <a href="java/index.html">
+                    <img src="https://www.TheAlienDoctor.com/assets/buttons/java.png">
+                </a>
+            </div>
+        </div>
+    </center>
+</body>
+
 </html>
