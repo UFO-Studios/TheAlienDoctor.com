@@ -4,7 +4,7 @@
 <ol>
 <li>Anyone can make (useful!) contributions</li>
 <li>It makes collabing easier</li>
-<h2><p>Contributing<p><h2>
+<h2><p>Contributing<p></h2>
 <ul>
 <li>Anyone can contribute by opening a pull request as long as its useful of course!</li>
 <li>If you want to join Alien's dev team, then contributing to things like the website is a good way of us adding you!</li>
