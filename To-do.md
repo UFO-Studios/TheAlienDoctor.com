@@ -1,7 +1,7 @@
 Website development plan:
 
 **Bulk downloader**
-*Mostly developed by nicygy*
+*Mostly developed by niceygy*
 - There will be multiple bulk downloaders, for each type of download and platform e.g. one for Bedrock resource packs, then a seperate on for Bedrock resource packs
 - For now, use the directory `~/downloads/bulk-downloader-beta` for creating the bulk downloader, in that folder put all the files it needs (.js scripts, css etc.)
 - For the beta bulk downloader, add the Bedrock resource pack links to the beta downloader, as the are the ones we have the most of therefore it is an effective test.
