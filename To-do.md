@@ -1,4 +1,4 @@
-Website development plan:
+__Website development plan:__
 
 **Bulk downloader**
 *Mostly developed by niceygy*
@@ -16,4 +16,5 @@ Website development plan:
 - Go to the releases tab to see the latest source code thats actually on the server.
 
 **Other things**
-- I want to try and make all the URLs non case sensitive. I think I found a way that envolves using  
+- I want to try and make all the URLs non case sensitive. I think I found a way that envolves using the ".htaccess" file on the web server and the 404.html page.
+- I am considering trying to find someone else to help as well? I think the area that (at least I) need the most help in is css
