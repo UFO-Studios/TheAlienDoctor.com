@@ -17,3 +17,6 @@ Template credits :
 <li>Framework : http://getbootstrap.com</li>
 </ul>
 <p>Template repo: https://github.com/learning-zone/website-templates/tree/master/above-educational-bootstrap-responsive-template</P>
+
+Note from Niceygy: if anyone knows how to work a MongoDB (or any other free) CDN that would be useful!
+DM me on discord: Niceygy #0799
