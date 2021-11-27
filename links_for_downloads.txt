@@ -1,0 +1,10 @@
+Here are all the direct download links for downloading my packs:
+
+Piglin to pigman Java: https://github.com/TheAlienDoctor/piglin-to-pigman-java/releases/download/V1.0.1/PiglinToPigman-V1.0.1.zip
+Piglin to pigman Bedrock: https://github.com/TheAlienDoctor/piglin-to-pigman-mcbe/releases/download/V1.0.1/PiglinToPigman-V1.0.1.mcpack
+
+Clearchat Bedrock: https://github.com/TheAlienDoctor/clear-chat-pack-mcbe/releases/download/V1.0.0/ClearChat-V1.0.0.mcpack
+
+Updated 1.8 textures: https://github.com/TheAlienDoctor/Updated-1.8-textures/releases/download/V1.2.3/Updated-1.8-textures.zip
+
+Greenscreen pack Bedrock: https://github.com/TheAlienDoctor/greenscreen-pack-mcbe/releases/download/V1.0.0/BedrockGreenscreenPack.mcpack
