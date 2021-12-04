@@ -4,7 +4,7 @@ UFO SMP: (4)
         Info
         Plugins
         Feedback
-        Season 0 explaination
+        Season 0/1 explaination
 
 IN PROGRESS:
 
