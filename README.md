@@ -8,7 +8,7 @@
 <ul>
 <li>Anyone can contribute by opening a pull request as long as its useful of course!</li>
 <li>If you want to join Alien's dev team, then contributing to things like the website is a good way of us adding you!</li>
-<li>We are not currently looking <i>speciffically</i> looking for anyone to join the dev team, however if you become a major contributor then we will likely ask if you want to join</li>
+<li>We are not currently looking <i>specifically</i> looking for anyone to join the dev team, however if you become a major contributor then we will likely ask if you want to join</li>
 <h2><p>Template</p></h2>
 Template credits :
 <ul>
@@ -17,6 +17,3 @@ Template credits :
 <li>Framework : http://getbootstrap.com</li>
 </ul>
 <p>Template repo: https://github.com/learning-zone/website-templates/tree/master/above-educational-bootstrap-responsive-template</P>
-
-Note from Niceygy: if anyone knows how to work a MongoDB (or any other free) CDN that would be useful!
-DM me on discord: Niceygy #0799
