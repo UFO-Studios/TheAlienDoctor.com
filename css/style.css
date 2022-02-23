@@ -281,7 +281,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background: none;
-	color: #14A085 !important;
+	color: #00f0c0 !important;
 }
 
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover {
@@ -324,7 +324,7 @@ header ul.nav li ul li ul {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: #14A085;
+	color: #00f0c0;
 }
 
 
@@ -648,13 +648,13 @@ section.callaction {
 ==================================== */
 
 #inner-headline {
-	background: #14A085;
+	background: #00f0c0;
 	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #fefefe;
 	/* margin: 15px; */
-	border-top: 10px solid #11967C;
+	border-top: 10px solid #00f0c0;
 }
 
 
@@ -871,7 +871,7 @@ form#commentform textarea {
 	height: 91%;
 	opacity: 0.50;
 	filter: alpha(opacity=80);
-	background: #14A085;
+	background: #00f0c0;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -907,7 +907,7 @@ ul.portfolio-categ li {
 ul.portfolio-categ li a {
 	display: block;
 	padding: 8px 20px;
-	color: #14A085;
+	color: #00f0c0;
 }
 
 ul.portfolio-categ li.active {
@@ -1116,7 +1116,7 @@ ul.link-list li {
 }
 
 footer {
-	background: #14A085;
+	background: #00f0c0;
 }
 
 footer ul.link-list li a {
@@ -1486,7 +1486,7 @@ ul.social-network li {
 	padding: 0;
 	padding-top: 30px;
 	margin: 20px 0 0 0;
-	background: #14A085;
+	background: #00f0c0;
 }
 
 #sub-footer p {
@@ -1705,7 +1705,7 @@ article img.pull-right, article .align-right {
 	.navbar .nav>.active>a, .navbar .nav>.active>a:hover {
 		background: none;
 		font-weight: 700;
-		color: #26AFF0;
+		color: #00f0c0;
 	}
 
 	header .navbar-nav>li {
