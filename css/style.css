@@ -281,7 +281,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background: none;
-	color: #00f0c0 !important;
+	color: #00a2ff !important;
 }
 
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover {
@@ -324,7 +324,7 @@ header ul.nav li ul li ul {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: #00f0c0;
+	color: #00a2ff;
 }
 
 
@@ -648,7 +648,7 @@ section.callaction {
 ==================================== */
 
 #inner-headline {
-	background: #00f0c0;
+	background: #00a2ff;
 	position: relative;
 	margin: 0;
 	padding: 0;
@@ -871,7 +871,7 @@ form#commentform textarea {
 	height: 91%;
 	opacity: 0.50;
 	filter: alpha(opacity=80);
-	background: #00f0c0;
+	background: #00a2ff;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -907,7 +907,7 @@ ul.portfolio-categ li {
 ul.portfolio-categ li a {
 	display: block;
 	padding: 8px 20px;
-	color: #00f0c0;
+	color: #00a2ff;
 }
 
 ul.portfolio-categ li.active {
@@ -1116,7 +1116,7 @@ ul.link-list li {
 }
 
 footer {
-	background: #00f0c0;
+	background: #00a2ff;
 }
 
 footer ul.link-list li a {
@@ -1371,7 +1371,7 @@ ul.team-detail li ul.social-network li i {
 .pricing-box-item .pricing-terms h6 {
 	font-style: italic;
 	margin-top: 10px;
-	color: #14A085;
+	color: #00a2ff;
 	font-size: 22px;
 	font-family: 'Noto Serif', serif;
 }
@@ -1705,7 +1705,7 @@ article img.pull-right, article .align-right {
 	.navbar .nav>.active>a, .navbar .nav>.active>a:hover {
 		background: none;
 		font-weight: 700;
-		color: #00f0c0;
+		color: #00a2ff;
 	}
 
 	header .navbar-nav>li {
