@@ -1,3 +1,2 @@
 *.json linguist-detectable=true
-*.svg linguist-detectable=true
-*.apacheconf linguist-detectable=true
+*.svg linguist-detectable=false
