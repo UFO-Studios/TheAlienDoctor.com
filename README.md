@@ -1,6 +1,6 @@
 <h1><p>TheAlienDoctor.com</p></h1>
 <p>TheAlienDoctor's official website, www.TheAlienDoctor.com</p>
-<p>This code is open source source for the following reasons:</P>
+<p>This code is open source for the following reasons:</P>
 <ol>
 <li>Anyone can make (useful!) contributions</li>
 <li>It makes collabing easier</li>
