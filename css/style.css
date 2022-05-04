@@ -1913,17 +1913,25 @@ article img.pull-right, article .align-right {
 .downloadbox {
 	background-color: #EFEFEF;
 	padding: 4px 25px;
+	text-decoration: none;
 }
 
 .downloadbox p {
 	color: #585858;
+	text-decoration: none;
+}
+
+.downloadbox h3 {
+	color: #428bca;
 }
 
 .downloadbox:hover {
 	background-color: #e0dfdf;
 	padding: 4px 25px;
+	text-decoration: none;
 }
 
 .downloadbox:hover p {
 	color: #585858;
+	text-decoration: none;
 }
