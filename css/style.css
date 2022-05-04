@@ -1904,9 +1904,19 @@ article img.pull-right, article .align-right {
 	padding: 4px 25px;
 }
 
+.textbox h3 {
+	margin: 0;
+	padding: 22px 0 14px;
+	font-size: 18px;
+}
+
 .downloadbox {
 	background-color: #EFEFEF;
 	padding: 4px 25px;
+}
+
+.downloadbox p {
+	color: #585858;
 }
 
 .downloadbox:hover {
@@ -1914,8 +1924,6 @@ article img.pull-right, article .align-right {
 	padding: 4px 25px;
 }
 
-.textbox h3 {
-	margin: 0;
-	padding: 22px 0 14px;
-	font-size: 18px;
+.downloadbox:hover p {
+	color: #585858;
 }
