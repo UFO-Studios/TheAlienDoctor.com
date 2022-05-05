@@ -1923,6 +1923,9 @@ article img.pull-right, article .align-right {
 
 .downloadbox h3 {
 	color: #428bca;
+	margin: 0;
+	padding: 22px 0 14px;
+	font-size: 18px;
 }
 
 .downloadbox:hover {
