@@ -1928,6 +1928,11 @@ article img.pull-right, article .align-right {
 	font-size: 18px;
 }
 
+.downloadbox img {
+	width: 75%;
+	max-width: 250px;
+}
+
 .downloadbox:hover {
 	background-color: #e0dfdf;
 	padding: 4px 25px;
