@@ -21,6 +21,11 @@ Do not remove the back-link in this web template
 	height: 315;
 }
 
+.yt-video-small iframe {
+	max-width: 560;
+	max-height: 315;
+}
+
 /* end */
 
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
@@ -487,6 +492,13 @@ select.selectmenu {
 	text-align: center;
 	background-color: #F9F9F9;
 	padding-bottom: 15px;
+}
+
+.team-member :hover {
+	text-align: center;
+	background-color: #e0dfdf;
+	padding-bottom: 15px;
+	text-decoration: none;
 }
 
 .fancybox-title-inside-wrap {
