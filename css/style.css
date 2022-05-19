@@ -494,10 +494,7 @@ select.selectmenu {
 	padding-bottom: 15px;
 }
 
-.team-member :hover {
-	text-align: center;
-	background-color: #e0dfdf;
-	padding-bottom: 15px;
+.team-member a {
 	text-decoration: none;
 }
 
