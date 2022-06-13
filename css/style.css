@@ -1949,3 +1949,19 @@ article img.pull-right, article .align-right {
 	color: #585858;
 	text-decoration: none;
 }
+
+/* reactive YT embed code */
+
+.g-ytsubscribe{
+	position: relative;
+	width: fit-content;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+.g-ytsubscribe{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1000%;
+}
