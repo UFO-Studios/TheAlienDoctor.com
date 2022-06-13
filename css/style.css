@@ -1950,7 +1950,7 @@ article img.pull-right, article .align-right {
 	text-decoration: none;
 }
 
-/* reactive YT embed code */
+/* reactive YT embed code - only works for tablets and above! yes yes... im working on it */
 
 
 .ytvid {
