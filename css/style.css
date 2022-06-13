@@ -1949,19 +1949,3 @@ article img.pull-right, article .align-right {
 	color: #585858;
 	text-decoration: none;
 }
-
-/* Niceys css code for the patreon and YT stuff */
-
-.g-ytsubscribe{
-    width:55%;
-    margin-right:2%;
-    float: left;
-}
-
-.patreo {
-    width:55%;
-    float: left;
-}
-.clearfix{
-    clear:both
-}
