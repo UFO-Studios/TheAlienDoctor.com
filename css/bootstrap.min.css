@@ -6035,7 +6035,6 @@ button.close {
 }
 
 .carousel-indicators .active {
-    margin: 0;
     width: 12px;
     height: 12px;
     background-color: #fff
