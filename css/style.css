@@ -1973,3 +1973,12 @@ article img.pull-right, article .align-right {
     width: 100%;
     height: 100%;
 }
+
+#searchBar {
+	padding: 10px;
+	width: 300px;
+}
+
+.hide {
+	display: none;
+}
