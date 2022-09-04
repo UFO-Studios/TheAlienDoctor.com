@@ -1952,24 +1952,33 @@ article img.pull-right, article .align-right {
 
 /* reactive YT embed code - only works for tablets and above! yes yes... im working on it */
 
-
+/* Commented out because brokey but also don't want to delete proffessional dev go brrr
 .ytvid {
-    position: relative;
-    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
-    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
-    /* padding-bottom: 75%; - 4:3 aspect ratio */
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	/* - 16:9 aspect ratio (most common) */
+	/* padding-bottom: 62.5%; - 16:10 aspect ratio */
+	/* padding-bottom: 75%; - 4:3 aspect ratio
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
 }
 
 .ytvid iframe,
 .ytvid object,
 .ytvid embed {
-    border: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+*/
+
+.ytvide {
+	width: auto;
+	height: auto;
+	overflow-y: hidden;
 }
