@@ -1927,6 +1927,16 @@ article img.pull-right, article .align-right {
 	text-decoration: none;
 }
 
+.downloadbox li {
+	color: #585858;
+	text-decoration: none;
+}
+
+.downloadbox ul {
+	color: #585858;
+	text-decoration: none;
+}
+
 .downloadbox h3 {
 	color: #428bca;
 	margin: 0;
@@ -1946,6 +1956,16 @@ article img.pull-right, article .align-right {
 }
 
 .downloadbox:hover p {
+	color: #585858;
+	text-decoration: none;
+}
+
+.downloadbox:hover li {
+	color: #585858;
+	text-decoration: none;
+}
+
+.downloadbox:hover ul {
 	color: #585858;
 	text-decoration: none;
 }
