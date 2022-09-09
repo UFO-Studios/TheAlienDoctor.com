@@ -1,0 +1,1 @@
+var collapseElementList=[].slice.call(document.querySelectorAll(".collapse")),collapseList=collapseElementList.map(function(a){return new bootstrap.Collapse(a)});

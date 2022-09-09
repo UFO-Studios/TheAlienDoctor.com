@@ -1,0 +1,1 @@
+function enablePacks(){document.getElementById("convertedPath").value.split("\n").forEach(function(a){document.getElementById(a)?document.getElementById(a).checked=!0:console.error('Unable to find "'+a+'" id in DOM')})};
