@@ -106,31 +106,31 @@ jQuery(function($) {
             packNamesString = packNamesString.substring(0, packNamesString.length - 1);
 
             // master files here
-            zip.file("CREDITS.txt", urlToPromise("/credits.md"), { binary: true });
-            zip.file("LICENSE.txt", urlToPromise("/LICENSE"), { binary: true });
-            zip.file("LEGAL_DISCLAIMER.txt", urlToPromise("/LEGAL_DISCLAIMER.md"), { binary: true });
-            zip.file("README.txt", urlToPromise("/mcpack/master/readme.txt"), { binary: true });
-            zip.file("PACKS.txt", packNamesString, { binary: true });
-            zip.file("pack_icon.png", urlToPromise("/mcpack/master/pack_icon.png"), { binary: true });
+            //zip.file("CREDITS.txt", urlToPromise("/credits.md"), { binary: true });
+            //zip.file("LICENSE.txt", urlToPromise("/LICENSE"), { binary: true });
+            //zip.file("LEGAL_DISCLAIMER.txt", urlToPromise("/LEGAL_DISCLAIMER.md"), { binary: true });
+            //zip.file("README.txt", urlToPromise("/mcpack/master/readme.txt"), { binary: true });
+            //zip.file("PACKS.txt", packNamesString, { binary: true });
+            //zip.file("pack_icon.png", urlToPromise("/mcpack/master/pack_icon.png"), { binary: true });
 
             var uuid1 = uuidv4();
             var uuid2 = uuidv4();
 
             console.log("uuid1: " + uuid1 + "\nuuid2: " + uuid2);
 
-            var description = "§evanillatweaksbedrock.ml - " + packNameArray.toString().replaceAll(/,/ig, ", ");
+            var description = "§evanillatweaksbedrock§r.ml - " + packNameArray.toString().replaceAll(/,/ig, ", ");
 
             var manifestInfoOBJ = {
                 "format_version": 2,
                 "header": {
                     "description": description,
-                    "name": "§6Vanilla Tweaks Bedrock",
+                    "name": "§6Vanilla Tweaks Bedrock§r",
                     "uuid": uuid1,
                     "version": [0, 0, 1],
                     "min_engine_version": [1, 14, 0]
                 },
                 "modules": [{
-                    "description": "§evanillatweaksbedrock.ml",
+                    "description": "§evanillatweaksbedrock§r.ml",
                     "type": "resources",
                     "uuid": uuid2,
                     "version": [1, 0, 0]
