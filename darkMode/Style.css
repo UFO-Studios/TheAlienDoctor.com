@@ -7,12 +7,9 @@ Do not remove the back-link in this web template
 
 /* Search by Kingerious, styled by Alien :D */
 
-.darkMode {
-  background-color: #ffffff;
-  border: none;
-  text-align: center;
+.h1 {
+  color: white;
 }
-
 
 .hide {
   display: none;
@@ -64,7 +61,8 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.6em;
-  color: #656565;
+  color: #ffffff;
+  background-color: #000;
 }
 
 a:active {
