@@ -1,1 +1,0 @@
-function searchableTable(){var a,b;var d=document.getElementById("myInput").value.toUpperCase();var c=document.getElementById("myTable").getElementsByTagName("tr");for(b=0;b<c.length;b++)if(a=c[b].getElementsByTagName("td")[0])a=a.textContent||a.innerText,c[b].classList.toggle(".hide",-1< !a.toUpperCase().indexOf(d))};
