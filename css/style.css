@@ -1982,6 +1982,17 @@ article .align-right {
 	text-decoration: none;
 }
 
+.setup-spec-box {
+	background-color: #efefef;
+	padding: 4px 25px;
+	text-decoration: none;
+}
+
+.setup-spec-box img {
+	width: 75%;
+	max-width: 250px;
+}
+
 /* reactive YT embed code - only works for tablets and above! yes yes... im working on it */
 
 /* Commented out because brokey but also don't want to delete proffessional dev go brrr
