@@ -104,13 +104,26 @@
 		</center>
 		<!-- Latest video-->
 		<center>
-			<h1>Latest Video</h1>
-			<div id="ytvid">
-				<iframe width="560" height="315"
-					src="https://www.youtube.com/embed/videoseries?list=PLwdbMjWqLv_Utcq5-tvr0AsbVMZUnL7FG"
-					title="Latest Video" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
+			<div class="container" style="display:flex">
+				<h3 style="flex: 1; text-align: center;">Latest Video</h3>
+				<h3 style="flex: 2; text-align: center;">Latest Stream</h3>
+			</div>
+			<div class="container" style="display:flex">
+				<div id="ytvid" style="flex: 1;">
+					<iframe width="560" height="315"
+						src="https://www.youtube.com/embed/videoseries?list=PLwdbMjWqLv_Utcq5-tvr0AsbVMZUnL7FG"
+						title="Latest Video" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<br>
+				<div id="ytvid" style="flex: 2;">
+					<iframe width="560" height="315"
+						src="https://www.youtube.com/embed/videoseries?list=PLwdbMjWqLv_UTFaC25yQF5OAHoApQP0qe"
+						title="Latest Video" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
 			</div>
 		</center>
 		<!-- Popular downloads-->
