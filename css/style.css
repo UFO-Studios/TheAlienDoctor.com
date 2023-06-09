@@ -31,7 +31,7 @@ Do not remove the back-link in this web template
 }
 
 .searchBar:hover, .searchBar:focus {
-	border: 1px solid #00a2ff;
+	border: 1px solid #3DB4F2;
 	background-color: white;
 }
 
@@ -64,6 +64,7 @@ body {
 	font-size: 14px;
 	line-height: 1.6em;
 	color: #252525;
+	background-color: #bbd0e4;
 }
 
 a:active {
@@ -144,7 +145,7 @@ header .navbar {
 }
 
 .navbar-default .navbar-brand {
-	color: #61b331;
+	color: #3DB4F2;
 }
 
 header .navbar-collapse ul.navbar-nav {
@@ -153,7 +154,7 @@ header .navbar-collapse ul.navbar-nav {
 }
 
 header .navbar-default {
-	background-color: #ffffff;
+	background-color: #d9eaff;
 }
 
 header .nav li a:hover,
@@ -314,7 +315,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background: none;
-	color: #00a2ff !important;
+	color: #3DB4F2 !important;
 }
 
 .navbar .nav>.active>a,
@@ -361,7 +362,7 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-	color: #00a2ff;
+	color: #3DB4F2;
 }
 
 ul.nav li.dropdown a {
@@ -585,6 +586,7 @@ section.callaction {
 	position: relative;
 	background: #fff;
 	padding: 50px 0 0px 0;
+	background-color: #DDE7F9;
 }
 
 #content img {
@@ -672,13 +674,13 @@ section.callaction {
 ==================================== */
 
 #inner-headline {
-	background: #00a2ff;
+	background: #3DB4F2;
 	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #fefefe;
 	/* margin: 15px; */
-	border-top: 10px solid #00a2ff;
+	border-top: 10px solid #3DB4F2;
 }
 
 #inner-headline .inner-heading h2 {
@@ -886,7 +888,7 @@ form#commentform textarea {
 	height: 91%;
 	opacity: 0.5;
 	filter: alpha(opacity=80);
-	background: #00a2ff;
+	background: #3DB4F2;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -922,7 +924,7 @@ ul.portfolio-categ li {
 ul.portfolio-categ li a {
 	display: block;
 	padding: 8px 20px;
-	color: #00a2ff;
+	color: #3DB4F2;
 }
 
 ul.portfolio-categ li.active {
@@ -1133,7 +1135,7 @@ ul.link-list li {
 }
 
 footer {
-	background: #00a2ff;
+	background: #3DB4F2;
 }
 
 footer ul.link-list li a {
@@ -1383,7 +1385,7 @@ ul.team-detail li ul.social-network li i {
 .pricing-box-item .pricing-terms h6 {
 	font-style: italic;
 	margin-top: 10px;
-	color: #00a2ff;
+	color: #3DB4F2;
 	font-size: 22px;
 	font-family: "Noto Serif", serif;
 }
@@ -1503,7 +1505,7 @@ ul.social-network li {
 	padding: 0;
 	padding-top: 30px;
 	margin: 20px 0 0 0;
-	background: #00a2ff;
+	background: #3DB4F2;
 }
 
 #sub-footer p {
@@ -1718,7 +1720,7 @@ article .align-right {
 	.navbar .nav>.active>a:hover {
 		background: none;
 		font-weight: 700;
-		color: #00a2ff;
+		color: #3DB4F2;
 	}
 
 	header .navbar-nav>li {
@@ -1919,7 +1921,7 @@ article .align-right {
 }
 
 .downloadbox {
-	background-color: #efefef;
+	background-color: #CDDDF0;
 	padding: 4px 25px;
 	text-decoration: none;
 }
@@ -1940,7 +1942,7 @@ article .align-right {
 }
 
 .downloadbox h3 {
-	color: #428bca;
+	color: #3a9dee;
 	margin: 0;
 	padding: 22px 0 14px;
 	font-size: 18px;
@@ -1952,7 +1954,7 @@ article .align-right {
 }
 
 .downloadbox:hover {
-	background-color: #e0dfdf;
+	background-color: #b6c5d6;
 	padding: 4px 25px;
 	text-decoration: none;
 }
