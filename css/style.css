@@ -1931,7 +1931,7 @@ article .align-right {
 }
 
 .textbox {
-	background-color: #efefef;
+	background-color: #CDDDF0;
 	padding: 4px 25px;
 }
 
@@ -1945,6 +1945,7 @@ article .align-right {
 	background-color: #CDDDF0;
 	padding: 4px 25px;
 	text-decoration: none;
+	font-weight: normal;
 }
 
 .downloadbox p {
