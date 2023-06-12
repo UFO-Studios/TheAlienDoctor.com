@@ -67,6 +67,16 @@ body {
 	background-color: #bbd0e4;
 }
 
+a {
+	color: #1E9CF0;
+	text-decoration: none;
+	font-weight: bold;
+}
+/* Eventually there will be more coloured text on the site for highlighting important information, once that happens we will need to make the links underlined and then stop the nav bar from underlining itself. */
+a:hover, a:focus {
+	color: #115BA6;
+}
+
 a:active {
 	outline: 0;
 }
