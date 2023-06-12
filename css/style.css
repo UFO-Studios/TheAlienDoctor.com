@@ -481,7 +481,7 @@ select.selectmenu {
 .testimonial-solid {
 	padding: 50px 0 60px 0;
 	margin: 0 0 0 0;
-	background: #efefef;
+	background: #CDDDF0;
 	text-align: center;
 }
 
@@ -1942,7 +1942,7 @@ article .align-right {
 }
 
 .downloadbox h3 {
-	color: #3a9dee;
+	color: #3DB4F2;
 	margin: 0;
 	padding: 22px 0 14px;
 	font-size: 18px;
@@ -1974,9 +1974,16 @@ article .align-right {
 	text-decoration: none;
 }
 
+.downloadbox:hover h3 {
+	color: #585858;
+	margin: 0;
+	padding: 22px 0 14px;
+	font-size: 18px;
+}
+
 .credit-profile {
 	text-align: center;
-	background-color: #f9f9f9;
+	background-color: #CDDDF0;
 	padding-bottom: 15px;
 }
 
@@ -1985,7 +1992,7 @@ article .align-right {
 }
 
 .setup-spec-box {
-	background-color: #efefef;
+	background-color: #CDDDF0;
 	padding: 4px 25px;
 	text-decoration: none;
 }
