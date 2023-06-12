@@ -77,7 +77,14 @@ a:active {
 
 h1,
 h2,
-h3,
+h3 {
+	font-family: Verdana, sans-serif;
+	font-weight: 700;
+	line-height: 1.1em;
+	color: #333;
+	margin-bottom: 20px;
+}
+
 h4,
 h5,
 h6 {
@@ -586,7 +593,7 @@ section.callaction {
 	position: relative;
 	background: #fff;
 	padding: 50px 0 0px 0;
-	background-color: #DDE7F9;
+	background-color: #bbd0e4;
 }
 
 #content img {
@@ -1099,23 +1106,27 @@ blockquote cite a:visited {
 }
 
 /* --- button --- */
-.btn {
+.btn-blue {
 	text-align: center;
-	background: #318cca;
+	background: #1E9CF0;
 	color: #fff;
 	border-radius: 0;
 	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
 }
 
-.btn-theme {
+.btn-blue:hover {
+	text-align: center;
+	background: #115BA6;
 	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
 }
-
-.btn-theme:hover {
-	color: #eee;
-}
-
-/* --- list style --- */
 
 ul.general {
 	list-style: none;
