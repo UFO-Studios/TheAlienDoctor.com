@@ -1161,6 +1161,7 @@ footer {
 
 footer ul.link-list li a {
 	color: #ffffff;
+	font-weight: normal;
 }
 
 footer ul.link-list li a:hover {
@@ -1485,6 +1486,7 @@ footer {
 
 footer a {
 	color: #fff;
+	font-weight: normal;
 }
 
 footer a:hover {
