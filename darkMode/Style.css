@@ -518,13 +518,13 @@ select.selectmenu {
   bottom: -30px;
 }
 
-.credit-profile {
+.textbox {
   text-align: center;
   background-color: #f9f9f9;
   padding-bottom: 15px;
 }
 
-.credit-profile a {
+.textbox a {
   text-decoration: none;
 }
 

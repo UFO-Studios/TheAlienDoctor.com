@@ -1932,17 +1932,6 @@ article .align-right {
 	border: 1px solid #929292;
 }
 
-.textbox {
-	background-color: #CDDDF0;
-	padding: 4px 25px;
-}
-
-.textbox h3 {
-	margin: 0;
-	padding: 22px 0 14px;
-	font-size: 18px;
-}
-
 .downloadbox {
 	background-color: #CDDDF0;
 	padding: 4px 25px;
@@ -2005,25 +1994,21 @@ article .align-right {
 	font-size: 18px;
 }
 
-.credit-profile {
-	text-align: center;
-	background-color: #CDDDF0;
-	padding-bottom: 15px;
-}
-
-.credit-profile a {
-	text-decoration: none;
-}
-
-.setup-spec-box {
+.textbox {
 	background-color: #CDDDF0;
 	padding: 4px 25px;
 	text-decoration: none;
+	text-align: center;
+	padding-bottom: 15px;
 }
 
-.setup-spec-box img {
-	width: 75%;
+.textbox img {
+	max-height: 250px;
 	max-width: 250px;
+}
+
+.textbox a {
+	text-decoration: none;
 }
 
 /* reactive YT embed code - only works for tablets and above! yes yes... im working on it */
