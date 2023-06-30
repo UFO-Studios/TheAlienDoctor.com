@@ -1138,6 +1138,28 @@ blockquote cite a:visited {
 	text-decoration: none;
 }
 
+.btn-red {
+	text-align: center;
+	background: #d42a14;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.btn-red:hover {
+	text-align: center;
+	background: #991e0d;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
 ul.general {
 	list-style: none;
 	margin-left: 0;
