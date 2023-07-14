@@ -1116,6 +1116,20 @@ blockquote cite a:visited {
 	padding-right: 20px;
 }
 
+/* --- Text colours --- */
+
+.txt-blue {
+	color: #1E9CF0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txt-red {
+	color: #d42a14;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 /* --- button --- */
 .btn-blue {
 	text-align: center;
