@@ -5,13 +5,14 @@
     /* Position the search icon */
     background-repeat: no-repeat;
     /* Do not repeat the icon image */
+    background-color: #CDDDF0;
     width: 100%;
     /* Full-width */
     font-size: 16px;
     /* Increase font-size */
     padding: 12px 20px 12px 40px;
     /* Add some padding */
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     /* Add a grey border */
     margin-bottom: 12px;
     /* Add some space below the input */
@@ -22,7 +23,7 @@
     /* Collapse borders */
     width: 100%;
     /* Full-width */
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     /* Add a grey border */
     font-size: 18px;
     /* Increase font-size */
@@ -37,10 +38,11 @@
 
 #myTable tr {
     /* Add a bottom border to all table rows */
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #000000;
+    background-color: #CDDDF0;
 }
 
 #myTable tr.header, #myTable tr:hover {
     /* Add a grey background color to the table header and on hover */
-    background-color: #f1f1f1;
+    background-color: #b6c5d6;
 }
