@@ -1961,17 +1961,7 @@ article .align-right {
 	font-weight: normal;
 }
 
-.downloadbox p {
-	color: #585858;
-	text-decoration: none;
-}
-
-.downloadbox li {
-	color: #585858;
-	text-decoration: none;
-}
-
-.downloadbox ul {
+.downloadbox p, li, ul {
 	color: #585858;
 	text-decoration: none;
 }
@@ -1994,17 +1984,7 @@ article .align-right {
 	text-decoration: none;
 }
 
-.downloadbox:hover p {
-	color: #585858;
-	text-decoration: none;
-}
-
-.downloadbox:hover li {
-	color: #585858;
-	text-decoration: none;
-}
-
-.downloadbox:hover ul {
+.downloadbox:hover p, li, ul {
 	color: #585858;
 	text-decoration: none;
 }
