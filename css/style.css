@@ -72,6 +72,7 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 }
+
 /* Eventually there will be more coloured text on the site for highlighting important information, once that happens we will need to make the links underlined and then stop the nav bar from underlining itself. */
 a:hover, a:focus {
 	color: #115BA6;
@@ -1158,6 +1159,28 @@ blockquote cite a:visited {
 	display: inline-block;
 	vertical-align: middle;
 	text-decoration: none;
+}
+
+.btn-patreon {
+	text-align: center;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: #f96854 !important;
+	background-image: url(../img/patreon.png);
+	background-position: 6px 50%;
+	background-repeat: no-repeat;
+	background-size: 26px;
+	color: #ffffff;
+}
+
+.btn-patreon:hover {
+	background-color: #cd5446 !important;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 ul.general {
