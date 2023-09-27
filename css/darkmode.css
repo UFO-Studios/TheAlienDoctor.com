@@ -39,3 +39,9 @@ body.darkmode .testimonial-solid {
     border-color: #222;
     color: white;
 }
+
+body.darkmode .footer {
+    background-color: #093568;
+    border-color: #222;
+    color: white;
+}
