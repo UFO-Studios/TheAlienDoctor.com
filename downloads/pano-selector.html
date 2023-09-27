@@ -18,6 +18,12 @@
 	<link href="css/flexslider.css" rel="stylesheet" />
 	<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" />
+	<script>
+		function toggleDarkMode() {
+			var body = document.body;
+            body.classList.toggle("darkmode");
+		}
+	</script>
 
 </head>
 
@@ -46,6 +52,7 @@
 							<li><a href="ufo-smp">UFO SMP</a></li>
 							<li><a href="ufo-studios.html">UFO Studios</a></li>
 							<li><a href="links.html">Links</a></li>
+							<li><button class="btn btn-blue navbar-btn" onclick="toggleDarkMode()"> Dark Mode</button></li>
 						</ul>
 					</div>
 				</div>

@@ -17,6 +17,24 @@
 	<link href="css/flexslider.css" rel="stylesheet" />
 	<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/darkmode.css" rel="stylesheet" />
+	<script>
+		function checkDarkModeCookie() {
+			var darkModeEnabled = document.cookie.indexOf("darkmode=true") !== -1;
+			if (darkModeEnabled) {
+				document.body.classList.add("dark-mode");
+			}
+		}
+		function toggleDarkMode() {
+			var body = document.body;
+			body.classList.toggle("darkmode");
+			if (body.classList.contains("darkmode")) {
+				document.cookie = "darkmode=true; path=/";
+			} else {
+				document.cookie = "darkmode=false; path=/";
+			}
+		}
+	</script>
 
 </head>
 
@@ -46,8 +64,8 @@
 							<li><a href="ufo-smp">UFO SMP</a></li>
 							<li><a href="ufo-studios.html">UFO Studios</a></li>
 							<li><a href="links.html">Links</a></li>
-							<!-- Dark mode (unfinished)
-							<button type="button" id="darkMode" onclick="location.href='./darkMode'">Dark mode</button>-->
+							<li><button class="btn btn-blue navbar-btn" onclick="toggleDarkMode()"> Dark Mode</button>
+							</li>
 						</ul>
 					</div>
 				</div>

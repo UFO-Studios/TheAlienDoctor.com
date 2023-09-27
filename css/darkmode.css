@@ -1,0 +1,32 @@
+/* Dark mode styles */
+body.darkmode {
+    background-color: black;
+    color: white;
+}
+
+/* Dark mode styles for the navbar */
+body.darkmode .navbar-default {
+    background-color: #333;
+    border-color: #222;
+}
+
+/* Dark mode styles for the navbar links */
+body.darkmode .navbar-default .navbar-nav > li > a {
+    color: #ddd;
+}
+
+body.darkmode .col-md-4 .downloadbox {
+    background-color: #333;
+    border-color: #222;
+}
+
+/* Dark mode styles for the carousel */
+body.darkmode .carousel-indicators li {
+    background-color: #222;
+    border-color: #222;
+}
+
+body.darkmode .carousel-inner .item {
+    background-color: #333;
+    color: #ddd;
+}
