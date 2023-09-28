@@ -28,8 +28,8 @@ body.darkmode .col-md-4 .downloadbox {
 
 /* Dark mode styles for the carousel */
 body.darkmode .carousel-indicators li {
-    background-color: #222;
-    border-color: #222;
+    background-color: #333;
+    border-color: #333;
     color: white;
 }
 
@@ -67,8 +67,38 @@ body.darkmode #main-slider .flex-caption  {
     color: white;
 }
 
-body.darkmode .content p {
+body.darkmode .content .container p {
     background-color: black;
     color: white;
 }
 
+/* Dark mode styles for the header */
+body.darkmode .header {
+    background-color: #222;
+    color: white;
+}
+
+/* Dark mode styles for the header text */
+body.darkmode .header h1,
+body.darkmode .header h2{
+    color: white;
+}
+
+#content {
+    background-color: #333;
+    color: white;
+}
+
+#content h3 {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .textbox {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .textbox img {
+    color: white;
+}
