@@ -4,6 +4,10 @@ body.darkmode {
     color: white;
 }
 
+body.darkmode p {
+    color: white;
+}
+
 /* Dark mode styles for the navbar */
 body.darkmode .navbar-default {
     background-color: #333;
@@ -34,9 +38,18 @@ body.darkmode .carousel-inner .item {
     color: white;
 }
 
+body.darkmode .carousel-inner .item p {
+    background-color: #333;
+    color: white;
+}
+
 body.darkmode .testimonial-solid {
     background-color: #333;
     border-color: #222;
+    color: white;
+}
+
+body.darkmode .testimonial-solid p { /*TEXT*/
     color: white;
 }
 
@@ -45,3 +58,14 @@ body.darkmode .footer {
     border-color: #222;
     color: white;
 }
+/* Dark mode styles for the slider */
+body.darkmode #main-slider .slides li {
+    background-color: black;
+    color: white;
+}
+
+body.darkmode #main-slider .flex-caption  {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+

@@ -18,23 +18,6 @@
 	<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/darkmode.css" rel="stylesheet" />
-	<script>
-		function checkDarkModeCookie() {
-			var darkModeEnabled = document.cookie.indexOf("darkmode=true") !== -1;
-			if (darkModeEnabled) {
-				document.body.classList.add("dark-mode");
-			}
-		}
-		function toggleDarkMode() {
-			var body = document.body;
-			body.classList.toggle("darkmode");
-			if (body.classList.contains("darkmode")) {
-				document.cookie = "darkmode=true; path=/";
-			} else {
-				document.cookie = "darkmode=false; path=/";
-			}
-		}
-	</script>
 
 </head>
 
@@ -479,6 +462,8 @@
 	</footer>
 	</div>
 	<!-- javascript ================================================== -->
+	<!-- DarkMode -->
+	<script src="js/darkmode.js"></script>
 	<!-- YouTube subscribe button -->
 	<script src="https://apis.google.com/js/platform.js"></script>
 	<!-- Patreon button -->
