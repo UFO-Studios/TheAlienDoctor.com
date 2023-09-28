@@ -94,11 +94,20 @@ body.darkmode .header h2{
     color: white;
 }
 
+#content img {
+    background-color: #333;
+    color: white;
+}
+
 body.darkmode .textbox {
     background-color: #333;
     color: white;
 }
 
 body.darkmode .textbox img {
+    color: white;
+}
+
+body.darkmode .aligncenter {
     color: white;
 }
