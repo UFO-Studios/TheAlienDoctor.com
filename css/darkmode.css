@@ -84,17 +84,17 @@ body.darkmode .header h2{
     color: white;
 }
 
-#content {
+body.darkmode #content {
     background-color: #333;
     color: white;
 }
 
-#content h3 {
+body.darkmode #content h3 {
     background-color: #333;
     color: white;
 }
 
-#content img {
+body.darkmode #content img {
     background-color: #333;
     color: white;
 }
