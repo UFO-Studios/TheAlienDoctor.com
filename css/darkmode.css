@@ -53,10 +53,8 @@ body.darkmode .testimonial-solid p { /*TEXT*/
     color: white;
 }
 
-body.darkmode .footer {
-    background-color: #093568;
-    border-color: #222;
-    color: white;
+body.darkmode .footer .sub-footer {
+	background: #0e2531;
 }
 /* Dark mode styles for the slider */
 body.darkmode #main-slider .slides li {
@@ -66,6 +64,11 @@ body.darkmode #main-slider .slides li {
 
 body.darkmode #main-slider .flex-caption  {
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+body.darkmode .content p {
+    background-color: black;
     color: white;
 }
 
