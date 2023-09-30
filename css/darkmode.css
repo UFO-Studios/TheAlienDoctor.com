@@ -111,3 +111,21 @@ body.darkmode .textbox img {
 body.darkmode h4 {
     color: white;
 }
+
+/* Dark mode styles for the header */
+/* Dark mode styles for the header */
+body.darkmode .header {
+    background-color: #222;
+    color: white;
+}
+
+/* Dark mode styles for the header text */
+body.darkmode .header h1,
+body.darkmode .header h2 {
+    color: white;
+}
+
+/* Dark mode styles for the title text */
+body.darkmode .header .container h2 {
+    color: white;
+}
