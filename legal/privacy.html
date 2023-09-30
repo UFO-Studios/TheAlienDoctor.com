@@ -16,6 +16,7 @@
 	<link href="../css/jcarousel.css" rel="stylesheet" />
 	<link href="../css/flexslider.css" rel="stylesheet" />
 	<link href="../css/style.css" rel="stylesheet" />
+	<link href="../css/darkmode.css" rel="stylesheet" />
 
 
 </head>
@@ -45,7 +46,8 @@
 							<li><a href="ufo-studios.html">UFO Studios</a></li>
 
 							
-							<li><a href="links.html">Links</a></li>
+                            <li><a href="links.html">Links</a></li>
+							<li><a href="#" onclick="toggleDarkMode(); return false;">Toggle Dark Mode</a></li>							<li><a href="#" onclick="toggleDarkMode(); return false;">Toggle Dark Mode</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,10 +72,11 @@
 								style="height:25px;display:block;"></span>
 							<p>This site does <b>not</b> collect your data</p>
 							<p>However, cookies are used on this website where they are strictly necessary for the site
-								functionality. They are used to aid navigation, and for the inclusion of third party
+								functionality. They are used to aid navigation, to check if you have enabled darkmode, and for the inclusion of third party
 								plugins such as YouTube, and Patreon. You can turn off cookies
 								by blocking them in your browser Privacy settings. If you turn off cookies, you may be
 								unable to view this site as it is intended.</p>
+								<p>Confused? Email us! We live at <a href="mailto:UFOStudios@TheAlienDoctor.com">UFOStudios@TheAlienDoctor.com</a></p>
 						</div>
 					</div>
 				</section>
@@ -141,7 +144,10 @@
 								<p>
 									<a href="legal/licence.html" target="_blank">
 										&#169; UFO Studios &#38; TheAlienDoctor </a> | <a href="http://webthemez.com"
-										target="_blank">Template By WebThemez</a> | Site Version: V1.5.4
+										target="_blank">Template By WebThemez</a> | Site Version: V1.5.4 ! 
+ 
+ 
+
 								</p>
 							</div>
 						</div>
@@ -153,6 +159,8 @@
 	<!-- javascript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
+	<!-- Darkmode -->
+	<script src="../js/darkmode.js"></script>
 	<!-- YouTube subscribe button -->
 	<script src="https://apis.google.com/js/platform.js"></script>
 	<!-- Scripts from orignal template-->

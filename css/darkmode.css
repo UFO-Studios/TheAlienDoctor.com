@@ -1,0 +1,113 @@
+/* Dark mode styles */
+body.darkmode {
+    background-color: black;
+    color: white;
+}
+
+body.darkmode p {
+    color: white;
+}
+
+/* Dark mode styles for the navbar */
+body.darkmode .navbar-default {
+    background-color: #333;
+    border-color: #222;
+    color: white;
+}
+
+/* Dark mode styles for the navbar links */
+body.darkmode .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+body.darkmode .col-md-4 .downloadbox {
+    background-color: #333;
+    border-color: #d3d0d0;
+    color: white;
+}
+
+/* Dark mode styles for the carousel */
+body.darkmode .carousel-indicators li {
+    background-color: #333;
+    border-color: #333;
+    color: white;
+}
+
+body.darkmode .carousel-inner .item {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .carousel-inner .item p {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .testimonial-solid {
+    background-color: #333;
+    border-color: #222;
+    color: white;
+}
+
+body.darkmode .testimonial-solid p { /*TEXT*/
+    color: white;
+}
+
+body.darkmode .footer .sub-footer {
+	background: #0e2531;
+}
+/* Dark mode styles for the slider */
+body.darkmode #main-slider .slides li {
+    background-color: black;
+    color: white;
+}
+
+body.darkmode #main-slider .flex-caption  {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+body.darkmode .content .container p {
+    background-color: black;
+    color: white;
+}
+
+/* Dark mode styles for the header */
+body.darkmode .header {
+    background-color: #222;
+    color: white;
+}
+
+/* Dark mode styles for the header text */
+body.darkmode .header h1,
+body.darkmode .header h2{
+    color: white;
+}
+
+body.darkmode #content {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode #content h3 {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode #content img {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .textbox {
+    background-color: #333;
+    color: white;
+}
+
+body.darkmode .textbox img {
+    color: white;
+}
+
+body.darkmode h4 {
+    color: white;
+}
