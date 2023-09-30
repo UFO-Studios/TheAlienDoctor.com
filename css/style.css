@@ -2049,6 +2049,11 @@ article .align-right {
 	text-decoration: none;
 }
 
+/* Responsive styles for the YouTube embed */
+.courses .aligncenter iframe {
+    max-width: 100%;
+    height: auto;
+}
 /* reactive YT embed code - only works for tablets and above! yes yes... im working on it */
 
 /* Commented out because brokey but also don't want to delete proffessional dev go brrr
