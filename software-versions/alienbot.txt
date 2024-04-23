@@ -1,0 +1,3 @@
+LATEST=3.0
+RELEASE_FILE=linkhere
+URGENT=false
