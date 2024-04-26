@@ -932,30 +932,29 @@ ul.portfolio-categ li {
 	margin: 0;
 	float: left;
 	list-style: none;
-	font-size: 13px;
-	font-weight: 600;
-	border: 1px solid #d5d5d5;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 ul.portfolio-categ li a {
-	display: block;
-	padding: 8px 20px;
-	color: #3DB4F2;
+	text-align: center;
+	background: #1E9CF0;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
 }
 
 ul.portfolio-categ li.active {
-	border: 1px solid #d7d8d6;
-
-	background-color: #eaeaea;
+	background: #115BA6;
 }
 
 ul.portfolio-categ li.active a:hover,
 ul.portfolio-categ li a:hover,
 ul.portfolio-categ li a:focus,
 ul.portfolio-categ li a:active {
-	text-decoration: none;
-	outline: 0;
+	background: #115BA6;
 }
 
 #accordion-alt3 .panel-heading h4 {
@@ -2051,8 +2050,8 @@ article .align-right {
 
 /* Responsive styles for the YouTube embed */
 .courses .aligncenter iframe {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 
