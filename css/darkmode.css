@@ -16,7 +16,7 @@ body.darkmode .navbar-default {
 }
 
 /* Dark mode styles for the navbar links */
-body.darkmode .navbar-default .navbar-nav > li > a {
+body.darkmode .navbar-default .navbar-nav>li>a {
     color: white;
 }
 
@@ -49,20 +49,22 @@ body.darkmode .testimonial-solid {
     color: white;
 }
 
-body.darkmode .testimonial-solid p { /*TEXT*/
+body.darkmode .testimonial-solid p {
+    /*TEXT*/
     color: white;
 }
 
 body.darkmode .footer .sub-footer {
-	background: #0e2531;
+    background: #0e2531;
 }
+
 /* Dark mode styles for the slider */
 body.darkmode #main-slider .slides li {
     background-color: black;
     color: white;
 }
 
-body.darkmode #main-slider .flex-caption  {
+body.darkmode #main-slider .flex-caption {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
@@ -80,7 +82,7 @@ body.darkmode .header {
 
 /* Dark mode styles for the header text */
 body.darkmode .header h1,
-body.darkmode .header h2{
+body.darkmode .header h2 {
     color: white;
 }
 
