@@ -1996,8 +1996,12 @@ article .align-right {
 	font-weight: normal;
 }
 
+.downloadbox p {
+	margin-top: 10px;
+}
+
 .downloadbox p, .downloadbox li, .downloadbox ul {
-	color: #585858;
+	color: black;
 	text-decoration: none;
 }
 
