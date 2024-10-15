@@ -22,25 +22,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   downloadButtons.forEach((button) => {
     button.addEventListener("click", function (event) {
-      event.preventDefault(); // Prevent the default action (navigation)
+      if (this.dataset.redirectUrl == null) {
+        //normal href, ignore
+        return;
+      } else {
+        event.preventDefault(); // Prevent the default action (navigation)
 
-      console.log(this.dataset.redirectUrl);
-      console.log(this);
+        const url = new URL(this.dataset.redirectUrl);
 
-      const url = new URL(this.dataset.redirectUrl);
+        // Optionally, log the modified URL
+        fetch(this.dataset.redirectUrl, { cache: "no-cache" })
+          .then((response) => response.text())
+          .then((data) => {
+            // console.log(data);
+          })
+          .catch((error) => {
+            console.error("Error making the request:", error);
+          });
 
-      // Optionally, log the modified URL
-      fetch(this.dataset.redirectUrl, { cache: "no-cache" })
-        .then((response) => response.text())
-        .then((data) => {
-          // console.log(data);
-        })
-        .catch((error) => {
-          console.error("Error making the request:", error);
-        });
-
-      // Navigate to the modified URL
-      window.location.href = url.toString();
+        // Navigate to the modified URL
+        window.location.href = url.toString();
+      }
     });
   });
 });
