@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const url = new URL(this.dataset.redirectUrl);
 
-        // Optionally, log the modified URL
         fetch(this.dataset.redirectUrl, { cache: "no-cache" })
           .then((response) => response.text())
           .then((data) => {
@@ -46,3 +45,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+/**
+ * USAGE INSTRUCTIONS
+ * 
+ * Links: if they are a pack download, use the following:
+ * 
+ * <a
+      data-redirect-url="https://download.thealiendoctor.com/reder?url=Username/Repository-name?file=Release-Version/File.Name"
+      class="btn-blue">Download latest version (MCBE 1.19.60) [V1.0.0]
+  </a>
+
+ * For all other links, use the normal href.
+
+ * Add     <script src="js/WDR.js"></script> to the js bit at the bottom 
+ */
