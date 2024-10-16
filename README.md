@@ -17,3 +17,11 @@ Template credits :
 <li>Framework : http://getbootstrap.com</li>
 </ul>
 <p>Template repo: https://github.com/learning-zone/website-templates/tree/master/above-educational-bootstrap-responsive-template</P>
+
+
+## Href Vs data-redirect-url:
+
+Use href for all links but the main "download pack" ones.
+use data-redirect-url for pack download buttons (not the older downloads!)
+Make sure to include `<script src="js/WDR.js"></script>`!
+
