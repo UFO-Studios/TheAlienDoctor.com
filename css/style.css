@@ -1198,6 +1198,29 @@ blockquote cite a:visited {
 	cursor: pointer;
 }
 
+.btn-github {
+	text-align: center;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: #20262E !important;
+	background-image: url(../img/github.png);
+	background-position: 6px 50%;
+	background-repeat: no-repeat;
+	background-size: 26px;
+	color: #ffffff;
+}
+
+.btn-github:hover {
+	background-color: #20262E !important;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 ul.general {
 	list-style: none;
 	margin-left: 0;
