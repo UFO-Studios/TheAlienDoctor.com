@@ -23,5 +23,5 @@ Template credits :
 
 Use href for all links but the main "download pack" ones.
 use data-redirect-url for pack download buttons (not the older downloads!)
-Make sure to include `<script src="js/WDR.js"></script>`!
+Make sure to include `<script src="/js/WDR.js"></script>`!
 

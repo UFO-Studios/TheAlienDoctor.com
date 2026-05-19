@@ -59,5 +59,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
  * For all other links, use the normal href.
 
- * Add     <script src="js/WDR.js"></script> to the js bit at the bottom 
+ * Add     <script src="/js/WDR.js"></script> to the js bit at the bottom 
  */
